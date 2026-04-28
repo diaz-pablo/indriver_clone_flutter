@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:indriver_clone_flutter/src/presentation/pages/auth/login/LoginContent.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -11,9 +12,8 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold( // Como el HTML - Esqueleto
-      body: Center(
-        child: Text("Hola mundo"),
-      ),
+      // backgroundColor: Color.fromARGB(255, 24, 181, 254),
+      body: LoginContent(),
     );
   }
 }
