@@ -35,6 +35,11 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
 
+  # Flutter Bloc - Manejador de Estados
+  flutter_bloc: ^9.1.1
+  # Permite comparar objetos  
+  equatable: ^2.0.8
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
